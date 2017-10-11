@@ -30,7 +30,7 @@ int main(int argc, char* argv[])
 	while (!glfwWindowShouldClose(window))
 	{
 		// clear the screen to a green colour
-		glClearColor(0.2f, 0.5f, 0.8f, 1.0f);
+		glClearColor(0.8f, 0.2f, 0.1f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
 
 		// swap buffers i.e. draw to screen
